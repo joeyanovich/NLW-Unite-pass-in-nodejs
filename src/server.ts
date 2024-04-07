@@ -2,7 +2,9 @@ import fastify from "fastify";
 
 const app = fastify()
 
-app.get('/', () => {
+app.post('/events', (request, reply) => {
+  console.log(request.body)
+
   return 'Hello NLW Unite'
 })
 
