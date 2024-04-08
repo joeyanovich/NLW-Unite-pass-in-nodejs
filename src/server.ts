@@ -10,5 +10,5 @@ app.setSerializerCompiler(serializerCompiler);
 app.register(createEvent)
 
 app.listen({ port: 3333 }).then(() => {
-  console.log('HTTP server running')
+  console.log('HTTP server running!')
 })
