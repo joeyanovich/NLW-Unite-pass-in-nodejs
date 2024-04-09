@@ -14,5 +14,9 @@ Content-Type: application/json
 
 {
   "name": "Joedison Dias",
-  "email": "emaildojoedison@gmail.com"
+  "email": "emaildojoedison2@gmail.com"
 }
+
+###
+
+GET http://localhost:3333/events/0381bca5-06bb-43ab-8e81-7ce163767e39
