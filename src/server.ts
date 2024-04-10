@@ -1,4 +1,7 @@
 import fastify from "fastify";
+
+import fastifySwagger from "@fastify/swagger";
+
 import { serializerCompiler, validatorCompiler } from "fastify-type-provider-zod"
 import { createEvent } from "./routes/create-event";
 import { registerForEvent } from "./routes/register-for-event";
