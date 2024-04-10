@@ -29,3 +29,7 @@ GET http://localhost:3333/attendees/5/badge
 ###
 
 GET http://localhost:3333/attendees/5/check-in
+
+###
+
+GET http://localhost:3333/events/0381bca5-06bb-43ab-8e81-7ce163767e39/attendees?query=joedison
