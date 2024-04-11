@@ -16,3 +16,4 @@ seed().then(() => {
   console.log('Database seeded!')
   prisma.$disconnect()
 })
+
